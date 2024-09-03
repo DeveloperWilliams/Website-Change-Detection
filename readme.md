@@ -4,7 +4,7 @@
 A Python tool to monitor changes on a specific webpage and notify users via email. It’s useful for tracking updates on websites like product listings or blogs.
 
 ## Features
-- **Web Scraping**: Uses `BeautifulSoup` to extract and monitor content.
+- **Web Scraping**: Uses `BeautifulSoup` to extract and monitor content. 
 - **Notification**: Sends email alerts on change detection.
 - **Scheduling**: Runs checks at regular intervals using `schedule`.
 
