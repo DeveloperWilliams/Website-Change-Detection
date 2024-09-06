@@ -38,4 +38,4 @@ email_config = {
     'to_email': 'recipient_email@gmail.com'
 }
 detector = ChangeDetector("http://example.com", email_config)
-detector.check_for_changes()
+detector.check_for_changes() # Check for changes
