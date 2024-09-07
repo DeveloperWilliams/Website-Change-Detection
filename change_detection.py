@@ -26,7 +26,7 @@ class ChangeDetector:
             server.login(self.email_config['username'], self.email_config['password'])
             message = "Subject: Website Change Detected\n\nChanges have been detected on the website."
             server.sendmail(self.email_config['from_email'], self.email_config['to_email'], message)
-        print("Email sent.")
+        print("Email sent.") # Print a message to the console
 
 # Example usage
 email_config = {
